@@ -39,7 +39,7 @@ header {
   background-color: #333;
   height: 100vh;
   position: relative;
-  background-image: url(../img/prof.JPG);
+  background-image: url(../img/prof.JPG) no-repeat;
 }
 
 .titanic {
@@ -136,7 +136,7 @@ nav {
 }
 
 main {
-  min-height: 100vh;
+ 
   padding-top: 50px;
   background-color: #fff;
   text-align: center;
@@ -281,8 +281,15 @@ footer .contact-link:hover {
   .contact-link {
     margin: 10px auto;
   }
+  main{
+  	 min-height: 100vh;
+  }
 }
 @media screen and (max-width: 768px) {
+
+  main{
+  	 min-height: 70vh;
+  }
   .skill {
     width: 50%;
     height: 30vw;
@@ -290,6 +297,7 @@ footer .contact-link:hover {
 
   .project {
     width: 50%;
+    height: 50vw;
   }
 
   .contact-link {
@@ -298,6 +306,10 @@ footer .contact-link:hover {
   }
 }
 @media screen and (max-width: 480px) {
+	main {
+	
+  	 min-height: 50vh;
+	}
   .skill {
     width: 100%;
     height: 60vw;
@@ -305,6 +317,7 @@ footer .contact-link:hover {
 
   .project {
     width: 100%;
+    height: 100vw;
   }
 
   .contact-link {
