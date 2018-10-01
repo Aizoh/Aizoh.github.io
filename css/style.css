@@ -338,6 +338,14 @@ footer .contact-link:hover {
     margin: 15px auto;
   }
 }
+@media screen and (max-width: 360px){
+    #portfolio{
+        height: 58vh;
+    }
+    .fot-row{
+        height: 40vh;
+    }
+}
 
 /*_____________*/
 
