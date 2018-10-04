@@ -375,6 +375,11 @@ footer .contact-link:hover {
     color: black;
 }
 
+.modal-content a{
+    text-decoration: none;
+    color: black;
+}
+
 /* The Close Button */
 .close ,.close1, .close2 {
     color: #aaaaaa;
